@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/bebas_neue/BebasNeue-Regular.woff2") format("woff2"),
+    url("fonts/bebas_neue/BebasNeue-Regular.woff") format("woff"),
+    url("fonts/bebas_neue/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/bebas_neue/BebasNeue-Regular_1.woff2") format("woff2"),
+    url("fonts/bebas_neue/BebasNeue-Regular_1.woff") format("woff"),
+    url("fonts/bebas_neue/BebasNeue-Regular_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/bebas_neue/BebasNeue-Regular_2.woff2") format("woff2"),
+    url("fonts/bebas_neue/BebasNeue-Regular_2.woff") format("woff"),
+    url("fonts/bebas_neue/BebasNeue-Regular_2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("fonts/bebas_neue/BebasNeue-Regular_3.woff2") format("woff2"),
+    url("fonts/bebas_neue/BebasNeue-Regular_3.woff") format("woff"),
+    url("fonts/bebas_neue/BebasNeue-Regular_3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Bebas Neue;
+  font-size: 128px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 14px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 12px;
+}
+
+h2,
+h3 {
+  font-weight: normal;
+}
+
+.main,
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
